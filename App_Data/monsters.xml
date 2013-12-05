@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Monsters xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Monster MonsterID="1" creator="Bulltrick" name="Young Black Dragon" Level="4" Role="Solo Lurker" Type="Large natural magical beast" XP="875" Init="+11" Senses="Perception +9; darkvision" HP="224" Bloodied="112" AC="22" Fort="18" Ref="20" Will="17" Resist="Resist 15 Adic" Saves="+5" Speed="7, Fly 7 (clumsy), Overland Flight 10, Swim 7" AP="2" Align="Evil" Lang="Common, Draconic" Skills="Nature +9, Stealth +17" Str="16 (+5)" Dex="20 (+7)" Wis="15 (+4)" Con="16 (+5)" Int="12 (+3)" Cha="10 (+2)" Equipment="">
+    <Attack type="m" name="Bite" avail="(standard; at-will)" School="Acid" Desc="Reach 2; +10 vs AC; 1d6 + 3 damage, and ongoing 5 acid damage (save ends)" />
+    <Attack type="m" name="Claw" avail="(standard; at-will)" School="" Desc="Reach 2; +8 vs AC; 1d4 + 3 damage" />
+    <Attack type="M" name="Double Attack" avail="(standard; at-will)" School="" Desc="The dragon makes two claw attacks." />
+  </Monster>
+  <Monster MonsterID="2" creator="Bulltrick" name="Young Black Dragon 2" Level="4" Role="Solo Lurker" Type="Large natural magical beast" XP="875" Init="+11" Senses="Perception +9; darkvision" HP="224" Bloodied="112" AC="22" Fort="18" Ref="20" Will="17" Resist="Resist 15 Adic" Saves="+5" Speed="7, Fly 7 (clumsy), Overland Flight 10, Swim 7" AP="2" Align="Evil" Lang="Common, Draconic" Skills="Nature +9, Stealth +17" Str="16 (+5)" Dex="20 (+7)" Wis="15 (+4)" Con="16 (+5)" Int="12 (+3)" Cha="10 (+2)" Equipment="">
+    <Attack type="m" name="Bite" avail="(standard; at-will)" School="Acid" Desc="Reach 2; +10 vs AC; 1d6 + 3 damage, and ongoing 5 acid damage (save ends)" />
+    <Attack type="m" name="Claw" avail="(standard; at-will)" School="" Desc="Reach 2; +8 vs AC; 1d4 + 3 damage" />
+    <Attack type="M" name="Double Attack" avail="(standard; at-will)" School="" Desc="The dragon makes two claw attacks." />
+  </Monster>
+  <Monster name="Goblin Archer" Level="1" Role="Skirmisher" Type="Small natural humanoid" XP="100" Init="+5" Senses="Perception +1; low-light vision" HP="29" Bloodied="14" AC="17" Fort="13" Ref="15" Will="12" Resist="" Saves="" Speed="6, Fly 8 (soarsled)" AP="" Align="Evil" Lang="Common, Goblin" Skills="Stealth +10, Thievery +10" Str="14 (+2)" Dex="17 (+3)" Wis="12 (+1)" Con="13 (+1)" Int="8 (-1)" Cha="8 (-1)" Equipment="Leather Armor, Short sword, Shortbow, Arrow x40">
+    <Attack type="M" name="Shortbow" avail="standard; at-will" School="Weapon" Desc="Ranged 15/30; +6 vs AC; 1d8 + 2 damage" />
+    <Attack type="m" name="Mobile Ranged Attack" avail="standard; at-will" School="" Desc="The goblin archer can move up to half its speed; at any point during that movement, it makes one ranged attack without provoking an opportunity attack" />
+    <Attack type="m" name="Goblin Tactics" avail="immediate reaction, when missed by a melee attack; at-will" School="" Desc="The goblin shifts 1 square. (A goblin archer can’t shift while flying on its soarsled.)" />
+  </Monster>
+  <Monster name="Goblin Blackblade" Level="1" Role="Lurker" Type="Small natural humanoid" XP="100" Init="+7" Senses="Perception +1; low-light vision" HP="25" Bloodied="12" AC="16" Fort="12" Ref="14" Will="11" Resist="" Saves="" Speed="6" AP="" Align="Evil" Lang="Common, Goblin" Skills="Stealth +10, Thievery +10" Str="14 (+2)" Dex="17 (+3)" Wis="12 (+1)" Con="13 (+1)" Int="8 (–1)" Cha="8 (–1)" Equipment="Leather Armor, Short sword">
+    <Attack type="M" name="Short Sword" avail="standard; at-will" School="Weapon" Desc="+5 vs AC; 1d6 + 2 damage" />
+    <Attack type="m" name="Combat Advantage " avail="" School="" Desc="The goblin blackblade deals an extra 1d6 damage against any target it has combat advantage against." />
+    <Attack type="m" name="Goblin Tactics" avail="immediate reaction, when missed by a melee attack; at-will" School="" Desc="The goblin shifts 1 square." />
+  </Monster>
+  <Monster name="Goblin Sentry" Level="2" Role="Soldier" Type="Small natural humanoid" XP="125" Init="+6" Senses="Perception +6; low-light vision" HP="41" Bloodied="20" AC="18" Fort="15" Ref="14" Will="12" Resist="" Saves="" Speed="5" AP="" Align="Evil" Lang="g" Skills="" Str="12 (+2)" Dex="16 (+4)" Wis="11 (+1)" Con="17 (+4)" Int="9 (+0)" Cha="8 (+0)" Equipment="">
+    <Attack type="m" name="" avail="" School="" Desc="" />
+    <Attack type="m" name="" avail="" School="" Desc="" />
+    <Attack type="m" name="" avail="" School="" Desc="" />
+  </Monster>
+  <Monster name="Goblin Sentry" Level="2" Role="Soldier" Type="Small natural humanoid" XP="125" Init="+6" Senses="Perception +6; low-light vision" HP="41" Bloodied="20" AC="18" Fort="15" Ref="14" Will="12" Resist="" Saves="" Speed="5" AP="" Align="Evil" Lang="Common, Goblin" Skills="" Str="12 (+2)" Dex="16 (+4)" Wis="11 (+1)" Con="17 (+4)" Int="9 (+0)" Cha="8 (+0)" Equipment="Chainmail, Light Shield, Spear, Hand Crossbow, Crossbow Bolt x10">
+    <Attack type="M" name="Spear" avail="standard; at-will" School="Weapon" Desc="+9 vs AC; 1d8 + 3 damage, and the goblin slides the target 1 square" />
+    <Attack type="m" name="Hand Crossbow" avail="standard; at-will" School="Weapon" Desc="Ranged 10/20; +9 vs AC; 1d6 + 3 damage" />
+    <Attack type="m" name="Trip Up" avail="standard; recharge 6" School="" Desc="+7 vs Reflex; 1d8 + 4 damage, and the target is knocked prone" />
+  </Monster>
+</Monsters>
