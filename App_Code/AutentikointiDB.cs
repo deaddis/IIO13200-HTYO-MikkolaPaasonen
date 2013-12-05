@@ -172,10 +172,12 @@ public static class AutentikointiDB
         try
         {
             OpenMyConnection();
-            MySqlCommand cmd = new MySqlCommand("SELECT userEmail FROM user WHERE userName LIKE @searchText");
-            cmd.CommandText = "user";
+            MySqlCommand cmd = new MySqlCommand("SELECT userEmail FROM user WHERE userName LIKE @param");
+
+            MySqlParameter param = new MySqlParameter("param", MySqlDbType.VarChar);
+            param.Value = account;
+            cmd.Parameters.Add(param);
             cmd.Connection = myConn;
-            cmd.CommandType = CommandType.TableDirect;
             MySqlDataReader reader = cmd.ExecuteReader();
             while (reader.Read())
             {

@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Uutiset>
   <tyyppi name="Uutinen">
-    <uutinen DATE="2013-12-03" Otsikko="DnD Turnauksen voittaja" Kirjoittaja="Anna Puu" Kirjoitus="wat, wat, wat, wat, wat, wat, wat, wat, ">
+	<uutinen DATE="2013-12-05" Otsikko="Dnd härpäke on valmistunut!" Kirjoittaja="Luolamestari" Kirjoitus="Luolamestarit innostuvat!!!">
     </uutinen>
 	
-    <uutinen DATE="2013-12-04" Otsikko="DnD Turnauksen voittaja" Kirjoittaja="Anna Puu" Kirjoitus="wat, wat, wat, wat, wat, wat, wat, wat, ">
+    <uutinen DATE="2013-12-03" Otsikko="Kohta julkaistaan Dnd härpäke" Kirjoittaja="Topias Paasonen" Kirjoitus="Kehittämämme Dnd Härpäke valmistuu pian.">
     </uutinen>
-
+	
     <uutinen DATE="2013-12-05" Otsikko="DnD Turnauksen voittaja" Kirjoittaja="Anna Puu" Kirjoitus="wat, wat, wat, wat, wat, wat, wat, wat,">
     </uutinen>
   </tyyppi>
